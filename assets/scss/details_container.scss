@@ -1,0 +1,33 @@
+@import 'colors.scss';
+
+.details_container{
+    width: 271px;
+
+    .heading_primary{
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .heading_sub{
+        color: #EBF5FF;
+        font-weight: 300;
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+
+    .btn{
+        width: 129px;
+        height: 42px;
+        border: 0;
+        &.btn_gray{
+            background-color: $button-color;
+        }
+
+        span{
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
