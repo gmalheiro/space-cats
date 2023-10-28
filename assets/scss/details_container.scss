@@ -3,11 +3,18 @@
 .details_container{
     width: 271px;
     background-color: $details-container-color;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-around;
 
     .heading_primary{
         color: white;
         font-size: 28px;
         font-weight: 700;
+        margin-left: 15px;
     }
 
     .heading_sub{
@@ -15,12 +22,18 @@
         font-weight: 300;
         font-size: 15px;
         word-wrap: break-word;
+        margin-left: 15px;
+        max-width: 180px;
     }
 
     .btn{
         width: 129px;
         height: 42px;
         border: 0;
+        margin-left: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+
         &.btn_gray{
             background-color: $button-color;
         }
